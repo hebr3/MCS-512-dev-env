@@ -13,3 +13,7 @@ or download this repository and unzip the package into a folder
 From the terminal run
 
 `vagrant up`
+
+---
+
+I'm still finishing this up as it doesn't persist the eclipse plugin's currently
