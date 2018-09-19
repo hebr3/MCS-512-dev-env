@@ -83,5 +83,8 @@ Vagrant.configure("2") do |config|
   sudo ln -s /opt/eclipse/eclipse /usr/local/sbin/eclipse
   ls -l /usr/local/sbin/
 
+  PATH=$PATH:/opt/eclipse/
+  export PATH
+
 SHELL
 end
