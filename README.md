@@ -14,6 +14,16 @@ From the terminal run
 
 `vagrant up`
 
----
+When vagrant has completed provisioning your VM you can close the terminal window and log in through the VirtualBox window. At this point you can use the VM as you normally would inside of VirtualBox.
 
-I'm still finishing this up as it doesn't persist the eclipse plugin's currently
+You can log in to the VM with login:`vagrant`, password:`vagrant` (This is a standard scheme for vagrant builds)
+
+To run eclipse a terminal window inside of linux and type `eclipse`. (You can find the terminal by hitting the windows key on your keyboard and typing terminal and selecting the `MATE Terminal`.
+
+When eclipse finishes running it should automatically open a folder called `HelloWorld` in the project explorer view.
+
+You should open the files `Hello0.java` and `Hello1.java` inside of the `Project Explorer` view.
+
+-----
+
+Should fix soon
