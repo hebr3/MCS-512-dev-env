@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Built-By: ssjenka
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_151
+
+Name: p2.inf
+SHA-256-Digest: RxuZydua3UUgF8/G+zu6Q/JXZ/mZGq0Y4kaeY34Uwk4=
+
+Name: feature.xml
+SHA-256-Digest: D10C58UM8IB9TuljeoSrGhcWEcTbYmE5ZiHl78TT6Xc=
+
+Name: feature.properties
+SHA-256-Digest: yH4+iPluzU2rU5mOHGDfz+Da/6dokfR5ZhHqhZ1X/e4=
+

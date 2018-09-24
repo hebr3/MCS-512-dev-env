@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1537321244580" transient="false" shared_ur="file:configuration/org.eclipse.update/platform.xml" version="3.0">
+	<site updateable="true" url="file:/home/vagrant/.eclipse/org.eclipse.platform_4.8.0_1473617060_linux_gtk_x86_64/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.sonarlint.eclipse.feature" version="3.6.0.201806071228" url="features/org.sonarlint.eclipse.feature_3.6.0.201806071228/" plugin-identifier="org.sonarlint.eclipse.ui">
+		</feature>
+		<feature id="com.github.spotbugs.plugin.eclipse" version="3.1.7.r201809130347-03f0119" url="features/com.github.spotbugs.plugin.eclipse_3.1.7.r201809130347-03f0119/">
+		</feature>
+	</site>
+</config>

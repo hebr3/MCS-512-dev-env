@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.system' value='true'/>
+    <property name='p2.timestamp' value='1537321226353'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='10'>
+    <artifact classifier='osgi.bundle' id='org.sonarlint.eclipse.m2e' version='3.6.0.201806071228'>
+      <properties size='1'>
+        <property name='download.size' value='11443'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sonarlint.eclipse.feature' version='3.6.0.201806071228'>
+      <properties size='1'>
+        <property name='download.size' value='5277'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='3.1.7.r201809130347-03f0119'>
+      <properties size='1'>
+        <property name='download.size' value='5632477'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sonarlint.eclipse.cdt' version='3.6.0.201806071228'>
+      <properties size='1'>
+        <property name='download.size' value='19837'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sonarsource.sonarlint.core.sonarlint-client-api' version='3.7.0.1730'>
+      <properties size='1'>
+        <property name='download.size' value='80975'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sonarlint.eclipse.jdt' version='3.6.0.201806071228'>
+      <properties size='1'>
+        <property name='download.size' value='15590'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sonarlint.eclipse.core' version='3.6.0.201806071228'>
+      <properties size='1'>
+        <property name='download.size' value='14183001'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='3.1.7.r201809130347-03f0119'>
+      <properties size='1'>
+        <property name='download.size' value='2323'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sonarlint.eclipse.ui' version='3.6.0.201806071228'>
+      <properties size='1'>
+        <property name='download.size' value='414408'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sonarsource.sonarlint.core.sonarlint-core' version='3.7.0.1730'>
+      <properties size='1'>
+        <property name='download.size' value='9851004'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
